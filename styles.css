@@ -1,1 +1,33 @@
 /* Do not add any css, this is a bootstrap only assignment  */
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+}
+
+.carousel-caption {
+    bottom: 150px;
+}
+
+.carousel-control {
+    width: 50px;
+    height: 50px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.carousel-control.left {
+    left: 0;
+}
+
+.carousel-control.right {
+    right: 0;
+}
+
+.glyphicon-chevron-left, .glyphicon-chevron-right {
+    font-size: 24px;
+    color: #fff;
+}
